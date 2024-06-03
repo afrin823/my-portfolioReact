@@ -20,7 +20,7 @@ const Navbar = () => {
                             <li><NavLink>PAGES</NavLink></li>                        
                         </ul>
                     </div>
-                    <a className=" text-xl lg:text-4xl font-bold text-[#0d6efd]">Afrin</a>
+                    <a className=" text-xl lg:text-4xl font-bold bg-gradient-to-r from-red-500  via-blue-500 to-green-500 text-transparent bg-clip-text">Afrin</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Download Resume</a>
+                    <a className="animate-border inline-block rounded-md bg-white bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 bg-[length:400%_400%] p-3">Download Resume</a>
                 </div>
             </div>
         </div>
